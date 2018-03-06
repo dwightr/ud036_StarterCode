@@ -1,4 +1,4 @@
-# Movie Trailer Webiste
+# Movie Trailer Website
 
 This website shows you a list of movies that when clicked on, will show you a trailer for the movie.
 
