@@ -4,7 +4,7 @@ This website shows you a list of movies that when clicked on, will show you a tr
 
 ## Getting Started
 
-* 	Install **Python** [here](https://www.python.org/downloads/)
+* Install **Python** [here](https://www.python.org/downloads/)
 
 ## Preview
 
