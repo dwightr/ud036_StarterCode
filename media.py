@@ -1,16 +1,23 @@
 import webbrowser
 
+
 class Video():
     def __init__(self, title):
-        # Initialize Video Class Instance Variables 
+        # Initialize Video Class Instance Variables
         self.title = title
 
-# This class provides a way to store movie related and inherits title from the Video class!!!
+
+# This class provides a way to store movie related
+# and inherits title from the Video class!!!
 class Movie(Video):
-    """This class provides a way to store movie related information!!!"""
+    """
+        This class provides a way to store
+        movie related information!!!
+    """
     VALID_RATINGS = ["G", "PG", "PG-13", "R"]
-    
-    def __init__(self, title, movie_storyline, poster_image, trailer_youtube_url):
+
+    def __init__(self, title, movie_storyline, poster_image,
+                 trailer_youtube_url):
         # Initialize Variables Inhertied From Video Class
         Video.__init__(self, title)
         # Initialize Movie Class Instance Variables
