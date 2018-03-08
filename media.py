@@ -2,17 +2,20 @@ import webbrowser
 
 
 class Video():
+    """
+        Video Class provides a way to store
+        video related information
+    """
     def __init__(self, title):
         # Initialize Video Class Instance Variables
         self.title = title
 
 
-# This class provides a way to store movie related
-# and inherits title from the Video class!!!
 class Movie(Video):
     """
-        This class provides a way to store
-        movie related information!!!
+        Movie Class provides a way to store
+        movie related information  and will inherit 
+        Instance Variable from the Video class
     """
     VALID_RATINGS = ["G", "PG", "PG-13", "R"]
 
@@ -26,5 +29,5 @@ class Movie(Video):
         self.trailer_youtube_url = trailer_youtube_url
 
     def show_trailer(self):
-        # This Method Shows The Trailer Of The Instance It IS Called From
+        # This Method Shows The Trailer Of The Instance It Is Called From
         webbrowser.open(self.trailer_youtube_url)
